@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper indigo lighten-1">
+            <div class="container">
+                <a href="http://materializecss.com/" class="brand-logo">Materialize</a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="http://materializecss.com/sass.html">Sass</a></li>
+                    <li>
+                        <a class="dropdown-button" href="#!" data-activates="dropdown1">CSS<i class="material-icons right">arrow_drop_down</i></a>
+                        <ul id="dropdown1" class="dropdown-content">
+                            <li><a href="http://materializecss.com/color.html">Color</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/grid.html">Grid</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/helpers.html">Helpers</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/pulse.html">Pulse</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Shadow</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Tabla</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Transiciones</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Tipografía</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://materializecss.com/badges.html">Componentes</a></li>
+                    <li><a href="http://materializecss.com/carousel.html">Javascript</a></li>
+                    <li><a href="http://materializecss.com/mobile.html">Móvil</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="http://materializecss.com/sass.html">Sass</a></li>
+                    <li>
+                        <a class="dropdown-button" href="#!" data-activates="dropdown2">CSS<i class="material-icons right">arrow_drop_down</i></a>
+                        <ul id="dropdown2" class="dropdown-content">
+                            <li><a href="http://materializecss.com/color.html">Color</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/grid.html">Grid</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/helpers.html">Helpers</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/pulse.html">Pulse</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Shadow</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Tabla</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Transiciones</a></li>
+                            <li class="divider"></li>
+                            <li><a href="http://materializecss.com/media-css.html">Tipografía</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="http://materializecss.com/badges.html">Componentes</a></li>
+                    <li><a href="http://materializecss.com/carousel.html">Javascript</a></li>
+                    <li><a href="http://materializecss.com/mobile.html">Móvil</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="s12">
+                <div class="section">
+                    <h3>Colores</h5>
+                </div>
+                <div class="divider"></div>
+                <p class="caption">
+                    La paleta de colores se basa en la de <a href="https://material.io/guidelines/style/color.html">Material Design</a>. Cada uno de estos colores está definido por una clase base de color y una clase opcional para aclararlo u oscurecerlo.
+                </p>
+            </div>
+        </div>
+        <div class="row section">
+          <h5 class="col s12 m3">Color de fondo</h5>
+          <div class="col s12 m9">
+            <p>Para aplicar un color de fondo, sólo hay que añadir el nombre del color y una clase para aclarar/oscurecer el elemento.</p>
+            <div class="card-panel lime lighten-1 hoverable">Este es un <em>card-panel</em> con las clases <code>lime lighten-1</code>. Además, tiene la clase <code>hoverable</code> para añadir un efecto 3-D cuando el puntero se sitúa sobre él.</div>
+          </div>
+        </div>
+        <div class="row section">
+          <h5 class="col s12 m3">Color de texto</h5>
+          <div class="col s12 m9">
+            <p>Para aplicar un color al texto simplemente hay que añadir <code>-text</code> a la clase de color.</p>
+            <div class="card-panel red white-text">Este es un <em>card-panel</em> con la clase <code>white-text</code> para definir el color del texto.</div>
+            <div class="card-panel grey lighten-2 blue-text text-darken-4">Este es un <em>card-panel</em> con la clase <code>blue-text text-darken-4</code> para fijar el color del texto con una variación más oscura del color de partida.</div>
+            <div class="card-panel grey lighten-2 blue-text">Este es un <em>card-panel</em> con la clase <code>blue-text</code> sin el modificador de tono.</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col s12 center-align">
+            <h4>
+              <a href="http://materializecss.com/color.html#palette">Paleta de colores</a>
+            </h4>
+          </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $(".dropdown-button").dropdown();
+        })
+    </script>
+</body>
+
+</html>
