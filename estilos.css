@@ -1,5 +1,9 @@
+.fila-sin-margin-bottom {
+  margin-bottom: 0;
+}
+
 .caption {
-    font-size: 1.25rem;
+    font-size: 1.4rem;
     font-weight: 300;
     margin-bottom: 30px;
 }
@@ -7,4 +11,8 @@
 .dropdown-content li > a {
     font-size: 14px;
     padding: 14px 10px;
+}
+
+.card-panel {
+  font-size: 1.1rem;
 }
