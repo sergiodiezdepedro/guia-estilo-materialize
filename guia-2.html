@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Materialize</title>
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper indigo lighten-1">
+      <div class="container">
+        <a href="http://materializecss.com/" class="brand-logo">Materialize</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Guía (I)</a></li>
+          <li><a href="http://materializecss.com/sass.html">Sass</a></li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="dropdown1">CSS<i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="dropdown1" class="dropdown-content">
+              <li><a href="http://materializecss.com/color.html">Color</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/grid.html">Grid</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/helpers.html">Helpers</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/media-css.html">Media</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/pulse.html">Pulse</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/shadow.html">Shadow</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/table.html">Tabla</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/transitions.html">Transiciones</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/typography.html">Tipografía</a></li>
+            </ul>
+          </li>
+          <li><a href="http://materializecss.com/badges.html">Componentes</a></li>
+          <li><a href="http://materializecss.com/carousel.html">Javascript</a></li>
+          <li><a href="http://materializecss.com/mobile.html">Móvil</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li><a href="index.html">Guía (I)</a></li>
+          <li><a href="http://materializecss.com/sass.html">Sass</a></li>
+          <li>
+            <a class="dropdown-button" href="#!" data-activates="dropdown2">CSS<i class="material-icons right">arrow_drop_down</i></a>
+            <ul id="dropdown2" class="dropdown-content">
+              <li><a href="http://materializecss.com/color.html">Color</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/grid.html">Grid</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/helpers.html">Helpers</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/media-css.html">Media</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/pulse.html">Pulse</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/shadow.html">Shadow</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/table.html">Tabla</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/transitions.html">Transiciones</a></li>
+              <li class="divider"></li>
+              <li><a href="http://materializecss.com/typography.html">Tipografía</a></li>
+            </ul>
+          </li>
+          <li><a href="http://materializecss.com/badges.html">Componentes</a></li>
+          <li><a href="http://materializecss.com/carousel.html">Javascript</a></li>
+          <li><a href="http://materializecss.com/mobile.html">Móvil</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="s12">
+        <div class="section">
+          <h3>Botones</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Hay 3 tipos de botones principales <a href="https://material.io/guidelines/components/buttons.html">que se describen en Material Design</a>. El botón con relieve es un <strong>botón estándar</strong> que sugiere acciones y trata de dar profundidad a una página en su mayoría plana. El botón de <strong>acción circular flotante</strong> es para funciones muy importantes. Los <strong>botones planos</strong> se utilizan por lo general dentro de los elementos que ya cuentan con profundidad, como tarjetas o modales.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Estándar</h5>
+        </div>
+        <div class="section">
+          <a class="waves-effect waves-light btn">Botón</a>
+          <a class="waves-effect waves-light btn red"><i class="material-icons left">cloud</i>Botón</a>
+          <a class="waves-effect waves-light btn-large blue"><i class="material-icons right">cloud</i>Botón</a>
+        </div>
+        <div class="section">
+          <h5>Flotante</h5>
+        </div>
+        <div class="section">
+          <a class="btn-floating btn-large waves-effect waves-light indigo"><i class="material-icons">add</i></a>
+        </div>
+        <div class="section">
+          <h6><strong>Botón fijo de acciones</strong></h6>
+          <p>Se puede ver un ejemplo del mismo, con acciones añadidas, abajo y a la derecha de la página. Mediante clases suplementarias, este botón puede desplegarse <strong>horizontalmente</strong>, o <strong>con un clic</strong> en lugar del hover por defecto, o <strong>convertirse en una barra</strong> con iconos.</p>
+          <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+              <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+              <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+              <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+              <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+              <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="section">
+          <h5>Plano</h5>
+          <p>Estos botones se utilizan para aligerar un poco los efectos de capa. Por ejemplo, se suelen emplear para acciones dentro de tarjetas o modales, que poseen efectos de sombra acusados.</p>
+        </div>
+        <div class="section">
+          <a class="waves-effect btn-flat green white-text">Botón</a>
+        </div>
+        <div class="section">
+          <h5>Botón enviar</h5>
+          <p>Cuando se utiliza un botón para enviar un formulario, en lugar de utilizar una etiqueta input hay que recurrir a una etiqueta <code>button</code> con un <code>type="submit"</code>.</p>
+        </div>
+        <div class="section">
+          <button class="btn waves-effect waves-light" type="submit" name="action">Enviar<i class="material-icons right">send</i></button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Migas de pan</h3>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <nav>
+          <div class="nav-wrapper indigo darken-4">
+            <div class="col s12">
+              <a href="#!" class="breadcrumb">Primero</a>
+              <a href="#!" class="breadcrumb">Segundo</a>
+              <a href="#!" class="breadcrumb">Tercero</a>
+            </div>
+          </div>
+        </nav>
+        <p>El último elemento tiene, por defecto, el efecto de activo.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Tarjetas</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Las tarjetas son una forma conveniente de mostrar contenido compuesto de diferentes tipos de objetos. También son muy adecuadas para presentar objetos similares cuyo tamaño o acciones soportadas pueden variar considerablemente, como fotos con subtítulos de longitud variable.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <span class="card-title">Título de tarjeta</span>
+              <p>Tarjeta simple, buena para contener pequeños trozos de información. Conveniente y versátil, porque requiere poco marcado para su uso.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">Enlace</a>
+              <a href="#">Enlace</a>
+            </div>
+          </div>
+      </div>
+      <div class="col s12 m6">
+        <p>
+          Hay muchas posibilidades y opciones con este componente. Por ello, es conveniente consultar <a href="http://materializecss.com/cards.html">la página</a> dedicada al mismo.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Chips</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Los chips se pueden usar para representar pequeños bloques de información. Son muy utilizados para los contactos o las tags.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Contactos</h5>
+        </div>
+          <div class="chip">
+            <img src="http://lorempixel.com/600/600/people" alt="Contact Person">
+            Mariano Rajoy
+          </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Tags</h5>
+        </div>
+        <div class="chip">
+          linux
+          <i class="close material-icons">close</i>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Añadir tags con apoyo de JavaScript</h5>
+          <p>Se pueden añadir etiquetas, con algunas funcionalidades, mediante el uso de <a href="http://materializecss.com/chips.html#basic">un plugin JavaScript</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
