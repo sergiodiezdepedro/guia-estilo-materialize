@@ -3,4 +3,5 @@ $(document).ready(function () {
     $(".dropdown-button").dropdown({
       hover: true
     });
+    $('select').material_select();
 });
