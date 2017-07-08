@@ -80,8 +80,405 @@
       </div>
     </div>
   </nav>
-  <div class="container">
-
+  <div class="container contenedor-main">
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Carrusel</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            El carrusel es compatible con gestos táctiles, por lo que es funcional para dispositivos móviles. Es necesario inicializarlo mediante código JS. Cualquier tipo de carrusel tiene la posibilidad de mostrar o no los indicadores, como una opción del script.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="carousel">
+          <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/500/500/nature/1"></a>
+          <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/500/500/nature/2"></a>
+          <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/500/500/nature/3"></a>
+          <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/500/500/nature/4"></a>
+          <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/500/500/nature/5"></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <h5>Carrusel Ampliado</h5>
+        <p>
+          El carrusel tiene una opción para convertirlo en uno más convencional, de ancho completo del contenedor. Tiene una inicialización JS distinta. Puede ser utilizado para mostrar otro tipo de contenidos, además de imágenes.
+        </p>
+        <div class="carousel carousel-slider">
+          <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/technics/1"></a>
+          <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/technics/2"></a>
+          <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/technics/3"></a>
+          <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/technics/4"></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Acordeón</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Estos elementos tienen varias opciones de personalización: efecto popout, con una sección abierta por defecto, efecto acordeón (al abrir un elemento se cierra el anterior), apertura total (se pueden abrir todos los elementos a la vez).
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <h5>Convencional</h5>
+        <ul class="collapsible" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons">filter_drama</i>Primero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header active"><i class="material-icons">place</i>Segundo</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">whatshot</i>Tercero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+         </ul>
+      </div>
+      <div class="col s12 m4">
+        <h5>Efecto Popout</h5>
+        <ul class="collapsible popout" data-collapsible="accordion">
+           <li>
+             <div class="collapsible-header"><i class="material-icons">filter_drama</i>Primero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">place</i>Segundo</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">whatshot</i>Tercero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+         </ul>
+      </div>
+      <div class="col s12 m4">
+        <h5>Apertura total</h5>
+        <ul class="collapsible" data-collapsible="expandable">
+           <li>
+             <div class="collapsible-header"><i class="material-icons">filter_drama</i>Primero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">place</i>Segundo</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+           <li>
+             <div class="collapsible-header"><i class="material-icons">whatshot</i>Tercero</div>
+             <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+           </li>
+         </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Dialogs</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Son contenidos que no están visibles en la página, pero que se pueden mostrar mediante una acción del usuario con información adicional.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Toasts</h5>
+          <p>
+            Materialize provee una forma sencilla de enviar alertas discretas a sus usuarios mediante estos elementos. La forma más sencilla de implementarlos es añadir un <strong>evento onclick</strong> a un botón. Esta es la función
+          </p>
+          <p>
+            <code>Materialize.toast(message, displayLength, className, completeCallback);</code>
+          </p>
+          <p>
+            <code>className</code> (pasar clases como un parámetro opcional) y <code>completeCallback</code> (pasar un callback a la función toast que se ejecutará cuando este haya desaparecido) son opcionales.
+          </p>
+          <a class="btn green" onclick="Materialize.toast('Tostada redondeada de color índigo', 4000, 'rounded indigo')">Tostada</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Tooltips</h5>
+          <p>
+            Son pistas de texto pequeñas e interactivas principalmente para elementos gráficos. se añade la clase <code>tooltipped</code> al elemento y la posición top, bottom, left, right en el atributo data-tooltip para controlar la misma. Pensando en los dispositivos móbiles es aconsejable utilizar sólo las posiciones top y bottom.
+          </p>
+          <!-- data-position : bottom, top, left, o right -->
+          <!-- data-delay define el retraso antes de que el tooltip se muestre (en milisegundos)-->
+        <div class="section">
+            <a class="btn tooltipped purple" data-position="top" data-delay="50" data-tooltip="Tooltip arriba">Tócame</a>
+          <a class="btn tooltipped orange black-text" data-position="right" data-delay="50" data-tooltip="Tooltip derecha">Tócame</a>
+        </div>
+          <div class="section">
+            <a class="btn tooltipped blue lighten-4 black-text" data-position="left" data-delay="50" data-tooltip="Tooltip inzquierda">Tócame</a>
+            <a class="btn tooltipped red darken-3" data-position="down" data-delay="50" data-tooltip="Tooltip abajo">Tócame</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Botones con dropdown</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Se puede añadir una lista dropdown a cualquier botón. Es obligatorio que el atributo en <code>data-activates</code> sea idéntico a la <strong>id</strong> en la etiqueta <code>ul</code>. Se pueden incluir diivisores con la clase <code>&ltli class="divider"&gt&lt/li&gt</code>. Asimismo, se pueden usar iconos, dentro de la etiqueta <code>a</code>.
+          </p>
+          <p>
+            Es muy didáctico revisar las opciones del script dropdown-button en el archivo <em>scripts.js</em>.
+          </p>
+          <!-- Activador del Dropdown  -->
+          <a class='dropdown-button btn' href='#' data-activates='dropdown3'>Tocar</a>
+          <!-- Estructura del Dropdown -->
+          <ul id='dropdown3' class='dropdown-content'>
+            <li><a href="#!">Uno</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Dos</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Tres</a></li>
+            <li class="divider"></li>
+            <li><a href="#!"><i class="material-icons">view_module</i>Cuatro</a></li>
+            <li class="divider"></li>
+            <li><a href="#!"><i class="material-icons">cloud</i>Cinco</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Solapa de Novedades</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Permite que se presente a los usuarios novedades o nuevas funcionalidades en momentos contextualemente relevantes. Debe ser usado con moderación y cuando sea oportuno. El texto no debe ser muy extenso.
+          </p>
+          <p class="red white-text parrafo-destacado">
+            La <strong>id</strong> del desencadenante y la clase <code>data-activates</code> del contenedor de la solapa deben ser iguales.
+          </p>
+          <div class="section">
+            <!-- Elemento desencadenante -->
+            <a id="novedades" class="btn-floating btn-large waves-effect waves-light indigo" onclick="$('.tap-target').tapTarget('open')"><i class="material-icons">new_releases</i></a>
+            <!-- Estructura de la solapa -->
+            <div class="tap-target deep-purple darken-4 white-text" data-activates="novedades">
+              <div class="tap-target-content">
+                <h5>Novedades Desopilantes</h5>
+                <p>
+                  El desencadenante ha de tener un <strong>evento onclick</strong> para disparar la solapa.
+                </p>
+                <p>
+                  Se puede personalizar el aspecto de la solapa, con las clases habituales, en el contenedor <code>tap-target</code>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Media</h3>
+          <div class="divider"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Material Box</h5>
+          <p>
+            Es una implementación Material Design del conocido plugin <strong>Lightbox</strong>. Cuando un usuario hace clic en una imagen que puede ser ampliada, Material Box centra y amplía la imagen de una manera suave. Para salir del efecto, el usuario puede hacer clic en la imagen de nuevo, hacer scroll hacia abajo, o presionar la tecla ESC.
+          </p>
+          <p>
+            Para utilizar el recurso hay que añadir la clase <code>materialboxed</code> a la imagen.
+          </p>
+          <p>
+            Para incluir una pequeña descripción de la imagen, se añade con el atributo <code>data-caption</code>.
+          </p>
+          <img class="materialboxed responsive-img" data-caption="Una imagen urbana aleatoria" width="650" src="http://lorempixel.com/1920/1080/city">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Slider de imágenes</h5>
+          <p>
+            Un carrusel de imágenes con transiciones, indicadores, autoplay. Es compatible con gestos táctiles, como el habitual scroll horizontal al deslizar el dedo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row s12">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/1">
+            <div class="caption center-align">
+              <h3>Gran Titular</h3>
+              <h5 class="light grey-text text-lighten-3">Algo de texto normal.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/2">
+            <div class="caption left-align">
+              <h3>Alineado Izquierda</h3>
+              <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/3">
+            <div class="caption right-align">
+              <h3>Alineado Derecha</h3>
+              <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="https://lorempixel.com/580/250/nature/4">
+            <div class="caption center-align">
+              <h3>Gran Titular</h3>
+              <h5 class="light grey-text text-lighten-3">Lorem ipsum dolor sit amet.</h5>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h5>Slider de imágenes de pantalla completa</h5>
+          <p>
+            El slider se puede convertir en un soporte de exhibición de pantalla completa añadiendo al contenedor del slider la etiqueta <code>fullscreen</code>.
+          </p>
+          <a href="fullscreen-slider-demo.html" target="_blank" class="btn-large waves-effect waves-light">Demo</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Modales</h3>
+          <div class="divider"></div>
+          <p class="caption">
+            Los modales son eficientes para cajas de diálogo, mensajes de confirmación u otro contenido que puede ser solicitado. Para que funcionen, hay que añadir el id del modal al enlace del disparador. Para incluir un botón de cierre tan sólo hay que añadir la clase <code>modal-close</code> al mismo.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m4">
+        <h5>Por defecto</h5>
+        <a href="#modal1">Modal</a>
+        <div id="modal1" class="modal">
+          <div class="modal-content">
+            <h4>Cabecera del modal</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, soluta molestias atque possimus adipisci, error illo explicabo eos quaerat quos corrupti, voluptatibus voluptate aperiam rerum quidem, necessitatibus saepe. Deleniti, obcaecati, perferendis.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Aceptar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <h5>Con footer fijo</h5>
+        <p>
+          Si el modal tiene mucho contenido y se desea que los botones de acción estén visibles siempre, se le puede añadir la clase <code>modal-fixed-footer</code>.
+        </p>
+        <a class="waves-effect waves-light btn orange" href="#modal2">Modal</a>
+        <div id="modal2" class="modal modal-fixed-footer">
+          <div class="modal-content">
+            <h4>Cabecera de Modal</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect waves-red btn-flat ">Aceptar</a>
+            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Descartar</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <h5>Modales de zona baja de pantalla</h5>
+        <a class="waves-effect waves-light btn-floating btn-large red" href="#modal3">
+          <i class="material-icons">explore</i>
+        </a>
+        <div id="modal3" class="modal bottom-sheet">
+          <div class="modal-content">
+            <h4>Cabecera de Modal</h4>
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <img src="http://lorempixel.com/400/400" alt="Imagen aleatoria" class="circle">
+                <span class="title">Título</span>
+                <p>Primera línea <br>
+                   Segunda línea
+                </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle">folder</i>
+                <span class="title">Título</span>
+                <p>Primera línea <br>
+                   Segunda línea
+                </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle green">assessment</i>
+                <span class="title">Título</span>
+                <p>Primera línea <br>
+                   Segunda línea
+                </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="material-icons circle red">play_arrow</i>
+                <span class="title">Título</span>
+                <p>Primera línea <br>
+                   Segunda línea
+                </p>
+                <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12">
+        <div class="section">
+          <h3>Parallax</h3>
+          <div class="divider"></div>
+        </div>
+        <div class="section">
+          <a href="parallax.html" target="_blank" class="btn-large waves-effect waves-light">Demo</a>
+        </div>
+      </div>
+    </div>
   </div>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>

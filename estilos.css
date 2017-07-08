@@ -8,15 +8,23 @@
     margin-bottom: 30px;
 }
 
-.dropdown-content li > a {
-    font-size: 14px;
-    padding: 14px 10px;
-}
-
 .card-panel {
   font-size: 1.1rem;
 }
 
 .parrafo-sombra {
   padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .contenedor-main {
+    margin-bottom: 10rem;
+  }
+}
+
+.parrafo-destacado {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 1.1rem;
+  border-radius: 2px;
 }
