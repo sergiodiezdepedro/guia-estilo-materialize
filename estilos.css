@@ -28,3 +28,9 @@
   font-size: 1.1rem;
   border-radius: 2px;
 }
+
+@media screen and (min-width: 993px) {
+  .contenedor-cabecera {
+    width: 90%;
+  }
+}
