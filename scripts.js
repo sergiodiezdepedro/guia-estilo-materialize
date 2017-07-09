@@ -25,4 +25,6 @@ $(document).ready(function() {
   $('#modal2').modal();
   $('#modal3').modal();
   $('.parallax').parallax();
+  $('.scrollspy').scrollSpy();
+  $('ul.tabs').tabs();
 });
